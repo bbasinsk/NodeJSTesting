@@ -1,0 +1,17 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "nodejs hello world",
+  "main": "app.js",
+  "author": "Ben Basinski",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "scripts": {
+    "develop": "nodemon app.js"
+  }
+}
